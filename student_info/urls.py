@@ -21,5 +21,6 @@ from academic.views import *
 urlpatterns = [
     path('', home),
     path('register', create_student),
+    path('success', success),
     path('admin/', admin.site.urls),
 ]
